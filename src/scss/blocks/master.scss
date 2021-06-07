@@ -1,0 +1,19 @@
+.master__visually-hidden {
+    margin: -1px;
+
+    padding: 0;
+
+    width: 1px;
+    height: 1px;
+
+    position: fixed;
+
+    border: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+
+    overflow: hidden;
+}
