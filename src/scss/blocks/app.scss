@@ -17,11 +17,19 @@
     @media (min-width: 480px) {
         font-size: 25px;
     }
+
+    @media (min-width: 768px) {
+        font-size: 25px;
+    }
 }
 
 .app__list-item-p {
     @media (min-width: 480px) {
         font-size: 20px;
+    }
+
+    @media (min-width: 768px) {
+        font-size: 25px;
     }
 }
 
@@ -38,5 +46,9 @@
 .app__other-info {
     @media (min-width: 480px) {
         font-size: 20px;
+    }
+
+    @media (min-width: 768px) {
+        font-size: 25px;
     }
 }
