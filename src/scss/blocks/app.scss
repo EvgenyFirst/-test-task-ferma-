@@ -13,9 +13,30 @@
 
 .app__header {
     text-align: center;
+
+    @media (min-width: 480px) {
+        font-size: 25px;
+    }
+}
+
+.app__list-item-p {
+    @media (min-width: 480px) {
+        font-size: 20px;
+    }
 }
 
 .app__bright-smartphone {
     width: 244px;
     height: 216px;
+
+    @media (min-width: 480px) {
+        width: 293.2px;
+        height: 260px;
+    }
+}
+
+.app__other-info {
+    @media (min-width: 480px) {
+        font-size: 20px;
+    }
 }
